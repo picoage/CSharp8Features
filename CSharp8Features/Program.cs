@@ -6,7 +6,12 @@ namespace CSharp8Features
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            ReadOnlyMember.ReadOnlyMember rd = new ReadOnlyMember.ReadOnlyMember();
+            rd.X = 10;
+            rd.Y = 20; 
+
+            Console.WriteLine($"{rd.ToString()}");
+            Console.ReadLine(); 
         }
     }
 }
