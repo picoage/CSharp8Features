@@ -10,7 +10,7 @@ namespace CSharp8Features.ReadOnlyMember
         public double Y { get; set; }
         public readonly double Distance => Math.Sqrt(X * X + Y * Y);
 
-        public override readonly  string ToString() =>
+        public override readonly string ToString() =>
             $"({X}, {Y}) is {Distance} from the origin";
     } 
     
