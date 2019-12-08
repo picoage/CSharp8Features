@@ -7,6 +7,8 @@ namespace CSharp8Features
     {
         static void Main(string[] args)
         {
+            ReadOnlyMember readOnlyMember = new ReadOnlyMember {Radius=2 };
+            Console.WriteLine(readOnlyMember.ToString());  
             //CallReadOnlyMember();
             Console.ReadLine();
         }

@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace CSharp8Features.ReadOnlyMember
+namespace CSharp8Features
 {
-    struct ReadOnlyMember
+   public struct ReadOnlyMember
     {
         public double Radius { get; set; }
        
