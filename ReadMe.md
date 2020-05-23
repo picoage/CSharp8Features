@@ -1,5 +1,2 @@
-#3 Ws
-
-#Why we need ?
-#When we can use?
-#What we can achive?
+# C# 8 features 
+Code repo related to the youtube demo on https://www.youtube.com/channel/UCVsyUa5U2yIfsPY8KHF-BdA
