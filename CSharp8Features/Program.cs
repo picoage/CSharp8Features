@@ -9,7 +9,9 @@ namespace CSharp8Features
         static void Main(string[] args)
         {
             //ReadOnlyMember readOnlyMember = new ReadOnlyMember {Radius=2 };
-            DefaultInterfaceMember(); 
+            // DefaultInterfaceMember(); 
+            IndexAndRange.IndexAndRange.Index();
+            IndexAndRange.IndexAndRange.Range(); 
             Console.ReadLine();
         }
 

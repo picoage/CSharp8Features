@@ -6,7 +6,7 @@ internal int Calculate()
     int b = 20; 
     int c= Sum(); 
 
-    static int Sum() => a +b;
+    int Sum() => a +b;
 
     return c; 
 }
